@@ -1,13 +1,19 @@
 # Generative AI
+![alt Application Cover](images/cover.png)
 
-## Overview 
+## Presentation 
+This is a Python-based project focused on explore the power of llm model and framework such as GPT4ALL and LangChain. 
 
-This is a Python-based project that leverages the power of GPT-4 for All and LangChain. 
+It includes notebooks providing an overview of the LangChain framework, querying local documents with Obsidian, and integrating with GPT4All models. 
+ 
+You can exploring notebooks for in-depth demonstrations of various prompt processing in Python and chatbot functionalities.
 
 
 ## Key Components 
 
-This project has notebooks and local models : 
+The project's structure involves organized notebooks and locally downloaded GPT4All models. 
+
+The collection of Jupyter notebooks are organized as follows: 
 
 ```
 promptengineering
@@ -27,7 +33,7 @@ They are loaded in notebooks by command :
 ```python
 model = GPT4All(model_name, model_path="models")
 ```
-The folowing table contains the description of the notebook:  
+The following table provides an overview of the notebooks contained within this project:  
 
 | Notebook Filename                        | Description                                                   |
 |-------------------------------------------|---------------------------------------------------------------|
@@ -46,6 +52,10 @@ The folowing table contains the description of the notebook:
 To get started with this project, follow these steps :
 
 1. Clone the Repository 
+
+````
+git clone https://github.com/data-modelisation/prompt-engineering.git
+````
 
 2. Configure API keys 
 
